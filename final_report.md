@@ -2,7 +2,9 @@
 
 ### Introduction where you discuss the business problem and who would be interested in this project.
 
-In order to open a restaurant of a certain type the idea is explore the different Downtown Toronto's Neighborhoods  (i.e. Mexican, Sushi, French). This will be based on restaurant types already existing on each neighbourhood and taking into consideration the restaurant ratings, price range and social activity of the restaurant customers.
+Problem: What type of restuarant to open in Downtown Toronto depending on the neighborhood? In order to open a restaurant of a certain type the idea is to explore the existing restaurants in the different Downtown Toronto's Neighborhoods. This will be based on restaurant types (i.e. Mexican, Sushi, French) available in each neighborhood and on ratings, price range and social activity of regular restaurant customers in those areas. 
+
+This would be of interest to entrepenuers wanting to open a restuarant, so that they can clearly define the type of restaurant to open based on the current competitive landscape in a given neighborhood.  This will increase the chances of success of such venture.
 
 ### Data where you describe the data that will be used to solve the problem and the source of the data.
 
