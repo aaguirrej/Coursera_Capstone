@@ -32,11 +32,11 @@ Latitude and Longitude coordinates are needed to first define the location of ea
 
 Only venues that have a "restaurant" value included in the Category field are going to be kept for further analysis. The following fields are going to be included in the dataset:
 
-Venue ID:  These IDs are used in the Foursquare API call to get venue details and will used as a primary key field to merge or join datasets.
-Venue Name: Just used for reference when merging or joining datasets or for looking up their respective pages in foursquare website.
-Venue Latitude:  Latitude coordinate of the venue/restaurant
-Venue Longitue:  Longitude coordinate of the venue/restaurant
-Venue Category: Indicates the type of restaurant and the venue category, for example Sushi Restaurant, Chinese Restaurant. Type of restaurant refers to the type of cusine being served. In some instances the type of restaurant is not defined in the Venue Category field, so these restaurants can be considered as serving local Canadian food.
+*Venue ID:  These IDs are used in the Foursquare API call to get venue details and will used as a primary key field to merge or join datasets.
+*Venue Name: Just used for reference when merging or joining datasets or for looking up their respective pages in foursquare website.
+*Venue Latitude:  Latitude coordinate of the venue/restaurant
+*Venue Longitue:  Longitude coordinate of the venue/restaurant
+*Venue Category: Indicates the type of restaurant and the venue category, for example Sushi Restaurant, Chinese Restaurant. Type of restaurant refers to the type of cusine being served. In some instances the type of restaurant is not defined in the Venue Category field, so these restaurants can be considered as serving local Canadian food.
 
 **2.2.2 Venue Details**
 
