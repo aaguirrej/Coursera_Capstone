@@ -32,26 +32,27 @@ Latitude and Longitude coordinates are needed to first define the location of ea
 
 Only venues that have a "restaurant" value included in the Category field are going to be kept for further analysis. The following fields are going to be included in the dataset:
 
-*Venue ID:  These IDs are used in the Foursquare API call to get venue details and will used as a primary key field to merge or join datasets.
-*Venue Name: Just used for reference when merging or joining datasets or for looking up their respective pages in foursquare website.
-*Venue Latitude:  Latitude coordinate of the venue/restaurant
-*Venue Longitue:  Longitude coordinate of the venue/restaurant
-*Venue Category: Indicates the type of restaurant and the venue category, for example Sushi Restaurant, Chinese Restaurant. Type of restaurant refers to the type of cusine being served. In some instances the type of restaurant is not defined in the Venue Category field, so these restaurants can be considered as serving local Canadian food.
+* Venue ID:  These IDs are used in the Foursquare API call to get venue details and will used as a primary key field to merge or join datasets.
+* Venue Name: Just used for reference when merging or joining datasets or for looking up their respective pages in foursquare website.
+* Venue Latitude:  Latitude coordinate of the venue/restaurant
+* Venue Longitue:  Longitude coordinate of the venue/restaurant
+* Venue Category: Indicates the type of restaurant and the venue category, for example Sushi Restaurant, Chinese Restaurant. Type of restaurant refers to the type of cusine being served. In some instances the type of restaurant is not defined in the Venue Category field, so these restaurants can be considered as serving local Canadian food.
 
 **2.2.2 Venue Details**
 
 Venue Details data set is obtained by passing all the Venue ID's from the previous step to the API call for venue details.  
 
 The following fields are included in the data set:
-Restaurant ID: It's the Venue ID but renamed to Restaurant ID for this dataset
-Restaurant Name: It's the Restaurant ID but renamed to Restaurant ID for this dataset
-Rating: Value from 0-10 given by customers based on the quality of food/service	
-Rating Signals: Number of customers that submitted a rating
-Likes: Number of customers who liked the venue	
-Tips: Number of customer who submitted a tip (comment about the restaurant)	
-Listed:	In how many user generated lists a restaurant is included
-Photos: Number of photos uploaded to the restuarant page in Forsquare	
-Price Tier: Value from 0-4 indicated if the price of the menu is cheap, moderate, expensive, very expensive
+
+* Restaurant ID: It's the Venue ID but renamed to Restaurant ID for this dataset
+* Restaurant Name: It's the Restaurant ID but renamed to Restaurant ID for this dataset
+* Rating: Value from 0-10 given by customers based on the quality of food/service	
+* Rating Signals: Number of customers that submitted a rating
+* Likes: Number of customers who liked the venue	
+* Tips: Number of customer who submitted a tip (comment about the restaurant)	
+* Listed:	In how many user generated lists a restaurant is included
+* Photos: Number of photos uploaded to the restuarant page in Forsquare	
+* Price Tier: Value from 0-4 indicated if the price of the menu is cheap, moderate, expensive, very expensive
 
 All the about fields are included as a measure of restaurant quality, price range and customer engagement/recommendation.  Factors to be considered depending on the location and type of restaurant.  These values will be used to cluster the different restaurants in other dimensions other than location or category.
 
