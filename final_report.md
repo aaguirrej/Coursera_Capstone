@@ -142,5 +142,36 @@ Rating Signals feature is used as a proxy for other related engagement features:
 
 ![Image 13](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.36.09%20PM.png)
 
-### Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
-### Conclusion section where you conclude the report.
+### 5. Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
+
+Notes on the cluster's definitions:
+
+The Italian restaurant category is shared between Cluster 0 and 1. It may be possible that the Italian Restaurants in Cluster 0 are mostly fast food related (serving pizzas, takeaway).
+
+High levels of Rating Signals, Likes, Photos, Listed, Tips not only may show high customer engagement, but also indicate that customers like to share their experiences in a venue, which can be interpreted as an implicit recommendation to eat in a given restaurant.
+
+In the chart below all clusters are visualized based on Rating (X axis), Restaurant Category (Y axis), Price Tier (hue) and Rating Signals (maker size). Cluster 1 and 2 show less variability in terms of Rating compared to Cluster 0. Cluster 0 aggregates most of the restaurants with low Price Tier and low Rating Signals. Cluster 2 has the lowest share of restaurants but with higher levels of customer engagements.
+
+![Image 14](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.39.30%20PM.png)
+
+### 6. Conclusion section where you conclude the report.
+
+By using an unsupervised machine learning algorithm like K-Prototypes, the Restaurants in Downtown Toronto can be classified in 3 clusters. As indicated in the Results Section, the different restaurant categories (Restaurant features) have been grouped into: Food Restaurants or Niche/Ethnic Restaurants (Cluster 0 Local and International Restaurants (Cluster 1) International Restaurants (Cluster 2)
+
+The Rating Signals, Rating and Price Tier features are plotted below. As stated in the Discussion section, the scatter plot shows that:
+
+Cluster 0 has the greatest variability in terms of Rating, low Rating Signals (less than 200) and Price Tear mostly between 1 and 2 (Cheap and Moderate). Cluster 1 has a high Rating over 7.4, average Rating Signal but high Price Tier . Cluster 2 has a over 300 Rating Signals, the highest of all cluster combined with a high Rating.
+
+Based on the cluster analysis, each of the clusters can be defined as follows:
+
+Cluster 0: Fast Food Restaurants or Niche/Ethnic Restaurants that mostly offer value for money.
+Cluster 1: Best Rated Fancy Local and International Restaurants
+Cluster 2: Best Rated and Recommended International Restaurants
+
+This cluster analysis can be used by entrepeneurs trying to open a restaurant in Dowtown Toronto area. For example what type of restaurant should an entrepenuer open in Central Bay Stree? Looking at the Neighbourhoods by Cluster Labels countplot, it could be a Cluster 0 or Cluster 1 type of restaurant, since it seems that there is room to grow on those types of restaurantes compared to Church and Wellesley neighbourhood. If an entrepenuer wants to open a restaurant with high customer engagement and word of mouth (Cluster 2), then Garden District or Harbourfront would be the suggested Neighbourhoods, as long as the restaurant is a quality International Restaurant.
+
+For deeper analysis some other considerations like demographics, real state and land use should be also be considered for a suitable locaction.
+![Image 15](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.42.50%20PM.png)
+![Image 16](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.43.00%20PM.png)
+
+Author: Andres Aguirre
