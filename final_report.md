@@ -156,7 +156,7 @@ In the chart below all clusters are visualized based on Rating (X axis), Restaur
 
 ### 6. Conclusion section where you conclude the report.
 
-By using an unsupervised machine learning algorithm like K-Prototypes, the Restaurants in Downtown Toronto can be classified in 3 clusters. As indicated in the Results Section, the different restaurant categories (Restaurant features) have been grouped into: Food Restaurants or Niche/Ethnic Restaurants (Cluster 0 Local and International Restaurants (Cluster 1) International Restaurants (Cluster 2)
+By using an unsupervised machine learning algorithm like K-Prototypes, the Restaurants in Downtown Toronto can be classified in 3 clusters. As indicated in the Results Section, the different restaurant categories (Restaurant features) have been grouped into: Food Restaurants or Niche/Ethnic Restaurants (Cluster 0 Local and International Restaurants (Cluster 1) International Restaurants (Cluster 2).
 
 The Rating Signals, Rating and Price Tier features are plotted below. As stated in the Discussion section, the scatter plot shows that:
 
@@ -168,7 +168,7 @@ Cluster 0: Fast Food Restaurants or Niche/Ethnic Restaurants that mostly offer v
 Cluster 1: Best Rated Fancy Local and International Restaurants
 Cluster 2: Best Rated and Recommended International Restaurants
 
-This cluster analysis can be used by entrepreneurs trying to open a restaurant in Dowtown Toronto area. For example what type of restaurant should an entrepreneur open in Central Bay Street? Looking at the Neighbourhoods by Cluster Labels countplot, it could be a Cluster 0 or Cluster 1 type of restaurant, since it seems that there is room to grow on those types of restaurantes compared to Church and Wellesley neighbourhood. If an entrepreneur wants to open a restaurant with high customer engagement and word of mouth (Cluster 2), then Garden District or Harbourfront would be the suggested Neighbourhoods, as long as the restaurant is a quality International Restaurant.
+This cluster analysis can be used by entrepreneurs trying to open a restaurant in Dowtown Toronto area. For example what type of restaurant should an entrepreneur open in Central Bay Street? Looking at the Neighbourhoods by Cluster Labels countplot, it could be a Cluster 0 or Cluster 1 type of restaurant, since it seems that there is room to grow on those types of restaurants compared to Church and Wellesley neighbourhood. If an entrepreneur wants to open a restaurant with high customer engagement and word of mouth (Cluster 2), then Garden District or Harbourfront would be the suggested Neighbourhoods, as long as the restaurant is a quality International Restaurant.
 
 For deeper analysis some other considerations like demographics, real state and land use should be also be considered for a suitable location.
 
