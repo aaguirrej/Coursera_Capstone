@@ -59,9 +59,33 @@ All the about fields are included as a measure of restaurant quality, price rang
 As a side note in the API call results not all restaurants have a rating or/and price tier assigned.  In this case those restaurants are ignored for the analysis.
 
 
-### Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
+### 3. Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
 
+**3.1 Data Import and Wrangling**
 
+Postal codes and Neighbourhoods datasets are imported from Wikipedia, Latitudes and Longitudes from the Geospatial Coordinates file. The combined dataset is grouped by Postal codes and Borough. The dataset is then filtered by the Borough "Downtown Toronto" and its respective Neighbourhoods.
+
+![Image 1](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%208.41.18%20PM.png)
+
+Data is extracted from Foursquare's API based on the provided Latitudes and Longitudes for each group of Neighborhoods. Venue ID, Venue Category will be used to filter the venues that contain any Restaurant value in Venue Category.
+
+![Image 2](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.00.47%20PM.png)
+
+Next step is to obtain the Restaurant Stats dataset using the Venue ID of each restaurant in the API call. This dataset includes the following measures: Rating, Rating Signals, Likes, Listed, Photos, Tips and Price Tier. Only the Restaurants with Rating and Price Tier are included in the dataset.
+
+![Image 3](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.03.15%20PM.png)
+
+Downtown Restuarants and Restaurant Stats Datasets are merged using the Venue ID as primary key.
+
+![Image 4](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.07.36%20PM.png)
+
+One hot encoding for Restaurant Category's categorical values on the merged dataset.
+
+![Image 5](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.09.56%20PM.png)
+
+**3.2 Exploratory Data Analysis**
+
+Data visualization is performed for each feature (measures) of the X dataset. Histograms show that Likes, Listed, Photos and Rating Signals have similar distributions. Rating's distribution indicates that most of the restaurant ratings are between 7.0 and 8.5. Price Tier distribution shows that most of the restaurants are "Moderate" in terms of pricing.
 
 
 
