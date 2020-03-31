@@ -26,13 +26,13 @@ Geospatial/location, venues and venue details data sets will be used to analize 
 
 **2.2.1 Geospatial/location**
 
-Latitude and Longitude coordinates are needed to first define the location of each neighborhood. This is done by combining the neighborhood names that are part Downtown Toronto with their respectives geospatial coordinates. For simplicitiy the neighborhoods are grouped based on their respective postal codes. These neighborhood's coordinates are then going to be passed to Foursquare's Place API call (explore) to get all venue names and coordinates in a 500m radius.  
+Latitude and Longitude coordinates are needed to first define the location of each neighborhood. This is done by combining the neighborhood names that are part Downtown Toronto with their respectives geospatial coordinates. For simplicitiy the neighborhoods are grouped based on their respective postal codes. These neighborhood's coordinates are then going to be passed to Foursquare's Place API call (explore) to get all venue names and coordinates within a 500m radius.  
 
 **2.2.2 Explore Venues** 
 
-Only venues that have a "restaurant" value included in the Category field are going to be kept for further analysis. The following fields are going to be included in the dataset:
+Only venues that have a "restaurant" value included in the Category field are going to be kept for further analysis. The following features are included in the dataset:
 
-* Venue ID:  These IDs are used in the Foursquare API call to get venue details and will used as a primary key field to merge or join datasets.
+* Venue ID:  These IDs are used in the Foursquare API call to get venue details and will be used as a primary key field to merge or join datasets.
 * Venue Name: Just used for reference when merging or joining datasets or for looking up their respective pages in foursquare website.
 * Venue Latitude:  Latitude coordinate of the venue/restaurant
 * Venue Longitue:  Longitude coordinate of the venue/restaurant
@@ -40,7 +40,7 @@ Only venues that have a "restaurant" value included in the Category field are go
 
 **2.2.2 Venue Details**
 
-Venue Details data set is obtained by passing all the Venue ID's from the previous step to the API call for venue details.  
+Venue Details dataset is obtained by passing all the Venue ID's from the previous step to the Venue details API call.  
 
 The following fields are included in the data set:
 
@@ -49,7 +49,7 @@ The following fields are included in the data set:
 * Rating: Value from 0-10 given by customers based on the quality of food/service	
 * Rating Signals: Number of customers that submitted a rating
 * Likes: Number of customers who liked the venue	
-* Tips: Number of customer who submitted a tip (comment about the restaurant)	
+* Tips: Number of customers who submitted a tip (any comment about the restaurant)	
 * Listed:	In how many user generated lists a restaurant is included
 * Photos: Number of photos uploaded to the restuarant page in Forsquare	
 * Price Tier: Value from 0-4 indicated if the price of the menu is cheap, moderate, expensive, very expensive
@@ -60,6 +60,10 @@ As a side note in the API call results not all restaurants have a rating or/and 
 
 
 ### Methodology section which represents the main component of the report where you discuss and describe any exploratory data analysis that you did, any inferential statistical testing that you performed, if any, and what machine learnings were used and why.
+
+
+
+
 
 ### Results section where you discuss the results.
 ### Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
