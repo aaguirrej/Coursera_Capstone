@@ -4,11 +4,11 @@
 
 **1.1 The Problem**
 
-What type of restuarant to open in Downtown Toronto depending on the neighborhood? In order to open a restaurant of a certain type the idea is to explore the existing restaurants in the different Downtown Toronto's Neighborhoods. This will be based on restaurant types (i.e. Mexican, Sushi, French) available in each neighborhood and on ratings, price range and social activity of regular restaurant customers in those areas. 
+What type of restaurant to open in Downtown Toronto depending on the neighborhood? In order to open a restaurant of a certain type the idea is to explore the existing restaurants in the different Downtown Toronto's Neighborhoods. This will be based on restaurant types (i.e. Mexican, Sushi, French) available in each neighborhood and on ratings, price range and social activity of regular restaurant customers in those areas. 
 
 **1.2 Audience / Business Objective** 
 
-This would be of interest to entrepenuers wanting to open a new restuarant, so that they can clearly define the type of restaurant to open based on the current competitive landscape in a given neighborhood.  This will increase the chances of success of such venture, for example, by not trying to open a sushi restaurant in an neighborhood already crowded by such type of restaurant or by incorrectly position a price range depending on the competing alternatives on each neighbourhood.
+This would be of interest to entrepreneurs wanting to open a new restuarant, so that they can clearly define the type of restaurant to open based on the current competitive landscape in a given neighborhood.  This will increase the chances of success of such venture, for example, by not trying to open a sushi restaurant in an neighborhood already crowded by such type of restaurant or by incorrectly position a price range depending on the competing alternatives on each neighbourhood.
 
 ### 2. Data where you describe the data that will be used to solve the problem and the source of the data.
 
@@ -168,9 +168,10 @@ Cluster 0: Fast Food Restaurants or Niche/Ethnic Restaurants that mostly offer v
 Cluster 1: Best Rated Fancy Local and International Restaurants
 Cluster 2: Best Rated and Recommended International Restaurants
 
-This cluster analysis can be used by entrepeneurs trying to open a restaurant in Dowtown Toronto area. For example what type of restaurant should an entrepenuer open in Central Bay Stree? Looking at the Neighbourhoods by Cluster Labels countplot, it could be a Cluster 0 or Cluster 1 type of restaurant, since it seems that there is room to grow on those types of restaurantes compared to Church and Wellesley neighbourhood. If an entrepenuer wants to open a restaurant with high customer engagement and word of mouth (Cluster 2), then Garden District or Harbourfront would be the suggested Neighbourhoods, as long as the restaurant is a quality International Restaurant.
+This cluster analysis can be used by entrepreneurs trying to open a restaurant in Dowtown Toronto area. For example what type of restaurant should an entrepreneur open in Central Bay Street? Looking at the Neighbourhoods by Cluster Labels countplot, it could be a Cluster 0 or Cluster 1 type of restaurant, since it seems that there is room to grow on those types of restaurantes compared to Church and Wellesley neighbourhood. If an entrepreneur wants to open a restaurant with high customer engagement and word of mouth (Cluster 2), then Garden District or Harbourfront would be the suggested Neighbourhoods, as long as the restaurant is a quality International Restaurant.
 
-For deeper analysis some other considerations like demographics, real state and land use should be also be considered for a suitable locaction.
+For deeper analysis some other considerations like demographics, real state and land use should be also be considered for a suitable location.
+
 ![Image 15](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.42.50%20PM.png)
 ![Image 16](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.43.00%20PM.png)
 
