@@ -107,6 +107,40 @@ Second step is to apply the K-Prototypes Algorithm to the standarized feature da
 
 ![Image 9](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.23.16%20PM.png)
 
-### Results section where you discuss the results.
+### 4. Results section where you discuss the results.
+
+For visualization purposes the resulting clusters are included as markers on a Toronto map. Each cluster is identified by its respective cluster label, which is used as a marker on the map(0,1,2).
+
+![Image 10](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.29.27%20PM.png)
+
+The map shows how the different clusters are distributed in each neighbourhood. Most of the restaurants are located in Chinatown/Grange Park/Kensignton Market, Church and Wellesley and Central Bay Street.
+
+Cluster 0 is the most representative on those neighbourhoods and overall. Cluster 1 is mainly present in Chinatown/Grange Park/Kensignton Market, Ryerson/Garden District, St James Town. Cluster 2 is predomently in Ryerson/Garden District, Harbourfront, Adeleaide/King/Richmond.
+
+Ryerson/Garden District, Harbourfront, Design Exchange, Adeleaide/King/Richmond are neighbourhoods that include a good balanced mix of number of restaurants per cluster.
+
+Looking at the distribution of cluster labels per Restaurant Category, it indicates that Restaurant (local cuisine), Japanese Restaurant and Italian Restaurant are the most common categories in Cluster 0. Cluster 1 is very similar only adding Sushi and Mexican restaurant categories. Cluster 2 includes mostly Mexican, Ramen, Restaurant (local), Japanese and Thai categories.
+
+![Image 11](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.32.43%20PM.png)
+
+Looking at the distribution of cluster labels by Price Tier, Cluster 0 groups most of the 'Cheap' and 'Moderate' Price Tier restaurants. Cluster 1 has a good mix of Price Tiers. Cluster 2 doesn't include the 'Very Expensive' Price Tier.
+
+![Image 12](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.34.38%20PM.png)
+
+For the cluster analysis, each cluster's characteristics is identified by looking at its Cluster Center (Centroid) for each feature and cluster.
+
+Cluster 0:
+Rating, Price Tier and Rating Signals for this cluster are all below average. For the Restaurant Categories the following are above average: Afghan, Asian, Caribbean, Chinese, Comfort Food, Dim Sum, Doner, Ethiopian, Falafel, Fast Food, Filipino, German, Greek, Indian, Italian, Korean, Mediterranean, Modern European, Molecular, Seafood, Vegan, Vietnamese.
+
+Cluster 1:
+This cluster has Price Tier high/above average and Rating Signals, Rating below average. For the Restaurant Categories the following are above average: Sushi, Local Restaurant, New American, Middle Eastearn, French, Dumpling, Italian.
+
+Cluster 2:
+Rating, and Rating Signals are well above average in this cluster, with a just below average Price Tier. For the Restaurant Categories the following are above average: American, Japanese, Mexican, Ramen, Thai
+
+Rating Signals feature is used as a proxy for other related engagement features: Likes, Photos, Listed, Tips.
+
+![Image 13](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.36.09%20PM.png)
+
 ### Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
 ### Conclusion section where you conclude the report.
