@@ -87,7 +87,25 @@ One hot encoding for Restaurant Category's categorical values on the merged data
 
 Data visualization is performed for each feature (measures) of the X dataset. Histograms show that Likes, Listed, Photos and Rating Signals have similar distributions. Rating's distribution indicates that most of the restaurant ratings are between 7.0 and 8.5. Price Tier distribution shows that most of the restaurants are "Moderate" in terms of pricing.
 
+![Image 6](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.12.41%20PM.png)
 
+The correlation analysis shows that Rating Signals is highly correlated to Likes, Photos, Tips and Listed features. This means that Rating Signals can be used as a proxy for customer engagement and referral.
+
+![Image 7](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.17.12%20PM.png)
+
+**3.3 Machine Learning Model**
+
+The K-Prototypes clustering algorithm is applied to the feature dataset. The feature dataset contains both categorical and numerical variables and according to statistical literature K-Prototypes is more suitable in this case than using K-Mean.
+
+The goal with K-Prototypes is to cluster the restuarants in the different Downtown Toronto's Neighbourhoods and get insights based on the features included in the dataset.
+
+As a first step, the optimal number is calculated based on the K-Prototypes cost. The resulting curve's elbow indicates that K should be 3.
+
+![Image 8](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.21.07%20PM.png)
+
+Second step is to apply the K-Prototypes Algorithm to the standarized feature dataset and obtain the resulting labels for each cluster (0,1,2)
+
+![Image 9](https://github.com/aaguirrej/Coursera_Capstone/blob/master/Screen%20Shot%202020-03-31%20at%209.23.16%20PM.png)
 
 ### Results section where you discuss the results.
 ### Discussion section where you discuss any observations you noted and any recommendations you can make based on the results.
